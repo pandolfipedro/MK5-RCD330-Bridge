@@ -1,0 +1,26 @@
+# Apenas fontes; firmware compilado e objetos ficam fora do Git.
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.obj
+*.a
+*.exe
+*.pdb
+
+# Saidas locais de testes e compiladores.
+/.test-build/
+/build/
+/dist/
+/.pio/
+/.cache/
+/tooling/
+*.log
+
+# Editor e sistema.
+/.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
